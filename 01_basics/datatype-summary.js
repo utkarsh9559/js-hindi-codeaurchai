@@ -13,6 +13,8 @@ console.log(anotherid);
 
  console.log(id == anotherid);
   const bigNumber = 3447885430023240n
+  //Reference(Non primitive)
+  //Array , objects , Functions
 
  const heros = ["shaktiman" , "naagraj" , "dogesh"];
   let myobj = {
@@ -28,9 +30,34 @@ console.log(anotherid);
  console.log(typeof myFunction);
  console.log(typeof heros);
  console.log(typeof outsidetemp);
+
+ //++++++++++++++++++++++++++++
+ //stack(primitive) , heap(non-primitive)
+
+ let myyoutubename = "utkarshsingh"
+ let anothername = myyoutubename
+ console.log(anothername);
+ 
+ anothername = "chaiaurcode"
+ console.log(myyoutubename);
+ 
+ console.log(anothername);
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@xyz"
+ }
+ let userTwo = userOne
+
+ userTwo.email = "utkarsh@google.com";
+ console.log(userOne.email);
+ console.log(userTwo.email);
  
  
  
  
-//reference (NON primitive)
-//array , objects , functions
+ 
+ 
+ 
+ 
+ 

@@ -44,7 +44,17 @@ const user = [
         email: "karsh@google.com"
     }
 ]
-console.log(user);
+//console.log(user);
+user[1].email
+  console.log(tinderuser);
+  console.log(Object.keys(tinderuser));//it gives output in array
+  console.log(Object.values(tinderuser));
+  console.log(Object.entries(tinderuser));//it gives out in key and value formate in array 
 
+  console.log(tinderuser.hasOwnProperty('isLoggedIn'));
+  
+  
+
+  
   
  

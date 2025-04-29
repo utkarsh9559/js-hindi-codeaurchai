@@ -53,8 +53,27 @@ user[1].email
 
   console.log(tinderuser.hasOwnProperty('isLoggedIn'));
   
-  
+  const course = {
+    coursename: "javascript in hindi",
+    price: " 219483",
+    courseteacher: "khfspwnf"
+  }
+const {courseteacher : teacher} = course
+console.log(teacher);
 
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "yash")
+ {
+    "name":"utkarsh",
+    "coursename" :"js in hindi",//json formate 
+
+ } 
   
-  
+ [
+    {},
+    {},
+    {}
+ ]
  

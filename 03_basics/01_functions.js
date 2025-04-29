@@ -58,7 +58,8 @@ handleObject(user)
 const mynewArray = [200 , 400 , 100 , 600]
 
 function returnsecondvalue(getarray){
-    return getarray[1]
+    return getarray[3]
 }
 console.log(returnsecondvalue(mynewArray));
+
 

@@ -19,3 +19,8 @@
  // 3) execution phase  , new variable enviorment and execution thread is created every time we run the functionn 
  //after execution it will be deleted 
  //call stake->function calls to run
+
+
+ //++++++++++intresting way +++++++++
+
+ 
